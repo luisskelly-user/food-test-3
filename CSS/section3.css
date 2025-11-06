@@ -1,0 +1,28 @@
+:root{
+    --lead:#212121;
+    --gold:#f2bd12;
+    --ball:#fffdf7;
+    --hint-yellow:#fcf1cc;
+    --pure-white:#fff;
+}
+.input-container{
+    width: 43rem;
+    max-width: 100%;
+    background: var(--pure-white);
+    padding: 0.8rem;
+    box-shadow: rgb(0, 0, 0, 0,1) 0 5px 8px;
+    border-radius: 1rem;
+    margin: 4rem auto 0 auto;
+}
+input[type="email"]{
+    flex: 1;
+    height: 7vh;
+    background: transparent;
+    border:none;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+input[type="email"]:focus{
+    outline: none;
+    border: 2px solid var(--gold);
+}

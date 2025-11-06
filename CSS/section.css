@@ -1,0 +1,70 @@
+:root{
+    --lead:#212121;
+    --gold:#f2bd12;
+    --ball:#fffdf7;
+    --hint-yellow:#fcf1cc;
+    --pure-white:#fff;
+}
+.p-top {
+    padding-top:10rem;
+}
+.text-center {
+    text-align: center;
+}
+h5 {
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    color: var(--gold);
+    text-transform: uppercase;
+}
+h2{
+    font-size: 3.7rem;
+    text-transform: capitalize;
+    color: var(--lead);
+}
+h3{
+    font-size: 3.7rem;
+    color: var(--lead);
+    text-transform: capitalize;
+}
+p{
+    font-size: 20px;
+}
+.service-card h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.order-card {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 0 1rem 2rem 1rem;
+    background: var(--pure-white);
+    border: 0.1rem solid var(--gold);
+    border-radius: 2rem;
+    box-shadow:
+    rgba(0, 0 ,0 0.05) 8px 8px 8px,
+    rgba(0, 0 ,0 0.05) 8px 8px 8px inset;
+}
+.order-card img{
+    width: 15rem;
+    filter: drop-shadow(
+        rgb(0, 0, 0,0.2) 0 10px 10px
+    );
+}
+h4 {
+    font-size: 1.8rem;
+    color:var(--lead)
+}
+.order-card .price{
+    font-size:1.7rem ;
+    color: var(--gold);
+    padding: 1.3rem 0 2rem 0;
+}
+.order-card:hover {
+    background-color: var(--hint-yellow);
+    transition: all 0.2s ease-in-out;
+}
+.order-card:hover h4{
+    color: var(--lead);
+}
+

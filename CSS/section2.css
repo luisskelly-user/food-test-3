@@ -1,0 +1,64 @@
+:root{
+    --lead:#212121;
+    --gold:#f2bd12;
+    --ball:#fffdf7;
+    --hint-yellow:#fcf1cc;
+    --pure-white:#fff;
+}
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+.review-container{
+    width: 660px;
+    max-width: 100%;
+    flex: 1;
+}
+.clild-review{
+    background: var(--hint-yellow);
+    border-radius: 1rem ;
+    border: 4px solid #f2bd12;
+}
+.profile {
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    overflow: hidden;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fa-star{
+    color: var(--gold);
+}
+.mt-one-half {
+    margin-top: .5rem;
+}
+.arrow{
+    width: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: var(--gold);
+    color: var(--lead);
+    text-align: center;
+    line-height: 2.5rem;
+}
+.app-container{
+    background: var(--hint-yellow);
+    padding: 3rem 6rem;
+    border-radius: 3rem;
+}
+.app-container .content h2{
+    font-size: 4.5rem;
+}
+/* .app-image {
+    flex: 1;
+} */
+.app-container .image-container img{
+    width: 25rem;
+}
+.m-auto {
+    margin: auto;
+}
